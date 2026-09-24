@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Palindrome {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-        //palindrome
+        //Palindrome
         System.out.print("enter a string:");
         try {
             String name = sc.nextLine();

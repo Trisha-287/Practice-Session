@@ -8,7 +8,7 @@ public class StringIsEmpty {
         System.out.print("enter a string:");
         String name = sc.nextLine();
         if(name.isEmpty()){
-            System.out.print("String is empty");
+            System.out.print("string is empty");
         }
         else{
             System.out.print("string is not empty");
