@@ -7,8 +7,7 @@ public class CountParticularCharacter {
         Scanner sc = new Scanner(System.in);
         System.out.print("enter string:");
         String str = sc.nextLine();
-        System.out.print(
-                "enter character");
+        System.out.print("enter character");
         char ch = sc.next().charAt(0);
         int count = 0;
         for (int i = 0; i < str.length(); i++) {
