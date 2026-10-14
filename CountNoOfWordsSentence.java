@@ -9,7 +9,7 @@ public class CountNoOfWordsSentence {
         String name = sc.nextLine();
 int count=0;
 for(int i=0;i<name.length();i++){
-    if(name.charAt(i)!=' '&& (i==0||name.charAt(i-1)==' ')){
+    if(name.charAt(i)!=' '&& (i==0||name.charAt(i-1)==' ')){//current character  ki mundhu una character
       count++;
     }
 }
